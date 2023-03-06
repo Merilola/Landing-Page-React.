@@ -10,11 +10,15 @@ import Footer from "./Footer.jsx";
 
 
 
+
+
 //create your first component
 const Home = () => {
 	return (
 	<>
+		<body>
 		<Navbar />
+		
 	   <div className="conatiner">
 		<Jumbotron />
 		
@@ -43,6 +47,7 @@ const Home = () => {
 		buttonLabel="Go to Wikipedia"/>
 		</div>
 		</div>
+		</body>
 	    <Footer/>
 	</>
 	);

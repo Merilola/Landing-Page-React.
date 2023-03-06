@@ -3,31 +3,31 @@ import React from "react";
 const Navbar = () => {
     return(
         <>
-        
-        <nav className="navbar navbar-expand-lg bg-dark ">
-  <div className="container-fluid">
-    <a className="navbar-brand text-light" href="#">Wikipedia</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="#">Navbar</a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link active text-light  " aria-current="page" href="#">Home</a>
+    <nav class="navbar-nav container-fluid ">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#">About</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link disabled text-secondary" href="#">About</a>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Services</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link disabled text-secondary" href="#">Services</a>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Contact</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link disabled text-secondary" href="#">Contact</a>
-        </li>
+      
       </ul>
     </div>
+    </nav>
   </div>
 </nav>
+
         </>
     )
 };
