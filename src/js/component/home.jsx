@@ -25,7 +25,7 @@ const Home = () => {
 		<div className="card-group">
 		<Card title="Arctic Monkeys "
 		image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWA0_bvB-pQLQJydQ8Fih8nb_RdnqZ-RdXNA&usqp=CAU"
-		description="Arctic Monkeys es una banda británica de rock, formada en Sheffield, Reino Unido.3​ El grupo está compuesto por el guitarrista principal y vocalista Alex Turner, el guitarrista Jamie Cook, el baterista Matt Helders y el bajista Nick O'Malley. El bajista original de la banda, Andy Nicholson."
+		description="Arctic Monkeys are a British rock band, formed in Sheffield, United Kingdom.3 The group consists of lead guitarist and vocalist Alex Turner, guitarist Jamie Cook, drummer Matt Helders and bassist Nick O'Malley. The The band's original bassist, Andy Nicholson. British rock band, formed. "
 		buttonUrl="https://es.wikipedia.org/wiki/Arctic_Monkeys" 
 		buttonLabel="Go to Wikipedia"/>
 		<Card
@@ -42,8 +42,9 @@ const Home = () => {
 		buttonLabel="Go to Wikipedia"/>
 		<Card title="kevin Kaarl"
 		image="https://www.irock.cl/wp-content/uploads/2022/11/Kevin-Kaarl-17.jpg"
-		description="Kevin Eduardo Hernández Carlos (Meoqui, Chihuahua, May 15, 2001)1, known as Kevin Kaarl, is a Mexican folk music singer, songwriter and musician."
-		buttonUrl="https://es.wikipedia.org/wiki/Kevin_Kaarl"
+		description="Kevin Eduardo Hernández Carlos (Meoqui, Chihuahua, May 15, 2001)1, known as Kevin Kaarl, is a Mexican folk music singer, songwriter and musician Inglés
+		mexicano de música folk."
+		buttonUrl="https://es.wikipedia.org/wiki/Kevin_Kaarl" 
 		buttonLabel="Go to Wikipedia"/>
 		</div>
 		</div>
