@@ -5,16 +5,21 @@ const Card = (props) => {
 
     return(
         <>
-          <div className="card m-5  text-center border" >
-              <img className="card-img-top" src={props.image} alt="Card image cap" />
-            <div className="card-body ">
-              <h5 className="card-title mt-4">{props.title}</h5>
-              <p className="card-text  mt-5">{props.description}</p>
-              <a href={props.buttonUrl}className="btn btn-dark mb-2">{props.buttonLabel}</a>
-            </div>
-          </div>
+         
+  <div class="card text-center m-2">
+    <img src={props.image} class="card-img-top" alt="..."/>
+    <div class="card-body">
+      <h5 class="card-title">{props.title}</h5>
+      <p class="card-text">{props.description}</p>
+    </div>
+    <div class="card-footer">
+    <a href={props.buttonUrl}className="btn btn-dark ">{props.buttonLabel}</a>
+    </div>
+  </div>
+ 
+   
         </>
-    )
+    );
 }; 
 
 Card.prototype= {
